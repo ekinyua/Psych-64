@@ -3,6 +3,36 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  color: #41414B;
+  font-family: Circular Std Bold;
+  font-size: 48px;
+}
+
+.dark h2 {
+  color: #ffffff;
+}
+
+.dark h3 {
+  color: #ffffff;
+}
+
+.dark h4 {
+  color: #ffffff;
+}
+
+h3 {
+  color: #41414B;
+  font-family: Circular Std Bold;
+  font-size: 36px;
+}
+
+h4 {
+  color: #41414B;
+  font-family: Circular Std Bold;
+  font-size: 36px;
+}
+
 @media (max-width: 575.98px) {
   .visualization {
     padding: 10px;
