@@ -79,6 +79,22 @@ h4 {
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  #navbar {
+    position: relative;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .sticky {
+    position: relative;
+    top: auto;
+  }
+
+  .sticky + .content {
+    padding-top: 0;
+  }
+
   .h2 {
     font-size: 28px;
   }
@@ -102,6 +118,23 @@ h4 {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  #navbar {
+    overflow: hidden;
+    border: 2px solid rgba(124, 124, 124, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 100;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
   .h2 {
     font-size: 28px;
@@ -146,7 +179,6 @@ h4 {
 }
 
 #navbar {
-  overflow: hidden;
   border: 2px solid rgba(124, 124, 124, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
