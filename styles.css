@@ -4,10 +4,15 @@ body {
   margin: auto;
 }
 
+p {
+  font-family: serif;
+  font-size: 20px;
+}
+
 h2 {
   color: #41414B;
   font-family: Circular Std Bold;
-  font-size: 48px;
+  font-size: 44px;
 }
 
 .dark h2 {
@@ -97,6 +102,20 @@ h4 {
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+  .h2 {
+    font-size: 28px;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+
+  .h4 {
+    font-size: 18px;
+    
+  }
+  
   .visualization {
     padding: 20px;
   }
@@ -114,6 +133,12 @@ h4 {
   .visualization {
     padding: 30px;
   }
+}
+
+#navbar {
+  border: 2px solid rgba(124, 124, 124, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .visualization {
@@ -141,7 +166,7 @@ h4 {
   max-width: 1321px;
   margin: auto;
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
 }
 
 .icons {
@@ -187,7 +212,7 @@ i.fa-solid.fa-square, #five{
       #D90368 50% 85%,
       #5863F8 85% 90%,
       #ffffff 90% 100%);
-  transform-style: preserve-3d;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: transform 0.5s ease-in-out;
 }
 
@@ -218,6 +243,7 @@ i.fa-solid.fa-square, #five{
   object-fit: cover;
   height: 200px; 
   width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .join-us {
@@ -393,6 +419,9 @@ i.fa-solid.fa-square, #five{
 .img-fluid {
   width: 200vw;
   height: auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+ 
 }
 
 .dp-content {
