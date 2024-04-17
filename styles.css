@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  margin: auto;
 }
 
 h2 {
@@ -34,6 +35,18 @@ h4 {
 }
 
 @media (max-width: 575.98px) {
+  .h2 {
+    font-size: 28px;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+
+  .h4 {
+    font-size: 18px;
+
+  }
   .visualization {
     padding: 10px;
   }
@@ -61,6 +74,18 @@ h4 {
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .h2 {
+    font-size: 28px;
+  }
+
+  .h3 {
+    font-size: 24px;
+  }
+
+  .h4 {
+    font-size: 18px;
+    
+  }
   .visualization {
     padding: 15px;
   }
@@ -111,6 +136,13 @@ h4 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
+#team {
+  border-top: 2px solid rgba(124, 124, 124, 0.2);
+  max-width: 1321px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
 .icons {
   display: flex;
