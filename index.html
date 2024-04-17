@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psych-64</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/psych.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Psych-64
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#know-about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#donations">Donations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#upcoming-events">Events</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-dark">Donate</button>
+                <button class="btn btn-outline-dark theme-switch">Theme</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <!-- <header class="bg-image" id="home" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/chess_1.png'); height: 100vh; background-size: cover; background-position: center;">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-12 text-center">
+                    <h1 class="display-4 text-white mb-4">Facilitating Mental Wellness Through Chess</h1>
+                    <button id="home-but"  class="btn btn-warning btn-lg">What We Do</button>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 text-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="text-white me-3">20 professional chess players trained</div>
+                        <div class="border-end border-light mx-3"></div>
+                        <div class="text-white ms-3">$150 dollars in donations received</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> -->
+
+
+    <div id="slider">
+        <div id="home" class="dp-wrap">
+            <div id="dp-slider">
+
+                <div class="dp_item" data-class="1" data-position="1">
+                    <div class="dp-content">
+
+                        <h2>Facilitating mental wellness through chess </h2>
+                        <br>
+
+                        <a href="form.html"><button class="btn btn-warning">Get Involved</button></a>
+                    </div>
+                    <div class="dp-img">
+                        <img class="img-fluid" src="images/1.jpg" alt="investing">
+                    </div>
+                </div>
+
+                <div class="dp_item" data-class="2" data-position="2">
+                    <div class="dp-content">
+
+                        <h2>Building communities on campus</h2>
+                        <br>
+                        <a href="form.html"><button class="btn btn-warning">Get Involved</button></a>
+                    </div>
+                    <div class="dp-img">
+                        <img class="img-fluid" src="images/2.jpg" alt="investing">
+                    </div>
+                </div>
+
+                <div class="dp_item" data-class="3" data-position="3">
+                    <div class="dp-content">
+
+                        <h2> Active participation in chess tournaments</h2>
+                        <br>
+                        <a href="form.html"><button class="btn btn-warning">Get Involved</button></a>
+                    </div>
+                    <div class="dp-img">
+                        <img class="img-fluid" src="images/3.jpg" alt="investing">
+                    </div>
+                </div>
+
+                <div class="dp_item" data-class="4" data-position="4">
+                    <div class="dp-content">
+
+                        <h2>Nurtuting young talent</h2>
+                        <br>
+                        <a href="form.html"><button class="btn btn-warning">Get Involved</button></a>
+                    </div>
+                    <div class="dp-img">
+                        <img class="img-fluid" src="images/4.jpg" alt="investing">
+                    </div>
+                </div>
+            </div>
+
+            <span id="dp-next">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #FFB703;
+                                stroke-miterlimit: 10;
+                                stroke-width: 7px;
+                            }
+                        </style>
+                    </defs>
+                    <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953"
+                        transform="translate(0.094 25.276) rotate(-45)" />
+                </svg>
+            </span>
+
+            <span id="dp-prev">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: none;
+                                stroke: #FFB703;
+                                stroke-miterlimit: 10;
+                                stroke-width: 7px;
+                            }
+                        </style>
+                    </defs>
+                    <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953"
+                        transform="translate(0.094 25.276) rotate(-45)" />
+                </svg>
+            </span>
+
+
+
+            <ul id="dp-dots">
+                <li data-class="1" class="active"></li>
+                <li data-class="2"></li>
+                <li data-class="3"></li>
+                <li data-class="4"></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- About Section -->
+    <section id="know-about-us" class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-12 d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <hr class="border border-dark me-3" style="width: 50px;">
+                        <h2>Know About Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>We facilitate mental wellness through chess training</h3>
+                    <p>Welcome to Psyche-64, where mental well-being takes center stage through the strategic game of
+                        chess. We believe in the transformative power of chess training, not just for the board but for
+                        the mind. Join us on a journey of self-discovery, resilience, and mental empowerment. Let's make
+                        every move count for a healthier and happier psyche. Checkmate your stress, unlock your
+                        potential - it's time to play for mental well-being!</p>
+                    <a href="form.html"><button class="btn btn-warning">Get Involved</button></a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/5.JPG" alt="Chess Image" class="img-fluid">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-12 d-flex align-items-center justify-content-between">
+                    <h4>OUR SUPPORTERS</h4>
+                    <hr id="hr-supporters" class="border border-light flex-grow-1 mx-3">
+                </div>
+            </div>
+            <div id="supporters" class="row mt-3">
+                <div id="niadelta" class="col-md-6 d-flex align-items-center">
+                    <img src="images/niadelta.png" alt="Nia Delta" class="me-3" style="max-width: 100px;">
+                    <h2>NiaDelta</h2>
+                </div>
+                <div id="alu" class="col-md-6 d-flex align-items-center">
+                    <img src="images/alu.png" alt="Alu" class="me-3" style="max-width: 100px;">
+                    <h2>ALU</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-12 text-center">
+                    <h2>Meet Our Team</h2>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-12 text-center">
+                    <p>Discover the dynamic individuals shaping Psyche-64. From skilled chess trainers to compassionate
+                        mental health professionals, each member contributes uniquely to our mission of promoting mental
+                        well-being through chess.</p>
+                </div>
+            </div>
+            <div class="row equal-height">
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/elvis.jpg" alt="Team Member 1" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Elvis Kinyua</h5>
+                            <p class="card-text">Co-Founder, CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/millicent.png" alt="Team Member 2" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Malinga Millicent</h5>
+                            <p class="card-text">Co-Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/faith.png" alt="Faith Ruth" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Faith Ruth</h5>
+                            <p class="card-text">Chief Operating Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100">
+                        <img src="images/esther.jpg" alt="Team Member 4" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Esther Wanjiru</h5>
+                            <p class="card-text">Support Executive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visualization Section -->
+    <section id="donations" class="py-5 bg-info">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-12">
+                    <h3>How we spend your donations and where it goes</h3>
+                    <p>We understand that when you make a donation, you want to know exactly where your money is going
+                        and we pledge to be transparent.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i id="one" class="fa-solid fa-square fa-2x me-3"></i>
+                        <p class="mb-0">40% chess training</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i id="two" class="fa-solid fa-square fa-2x me-3"></i>
+                        <p class="mb-0">10% excursions</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i id="three" class="fa-solid fa-square fa-2x me-3"></i>
+                        <p class="mb-0">35% chess tournament</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i id="four" class="fa-solid fa-square fa-2x me-3"></i>
+                        <p class="mb-0">5% visiting children's homes</p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <i id="five" class="fa-solid fa-square fa-2x me-3"></i>
+                        <p class="mb-0">10% helping undepriviledged participants</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="pie-chart-container">
+                        <div class="piechart">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-us py-5"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/chess_3.jpg'); background-size: cover; background-position: center; height: 622px; width: 80vw; margin: auto; border-radius: 2%; border-top: 1px solid #ccc; position: relative;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="join-text mb-4">Join our Quest!</h2>
+                    <div class="join-group">
+                        <a href="form.html" class="btn join-button me-3">Join as a volunteer</a>
+                        <button class="btn donate-button">Donate</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="upcoming-events" class="events py-5">
+        <h4 class="text-center mb-4">Upcoming events</h4>
+        <div class="row d-flex align-center justify-content-between">
+            <div class="col-fill col-md-6 col-lg-6 mb-4">
+                <div class="board">
+                    <div class="mo-no">
+                        <h2 class="number">8</h2>
+                        <h3 class="month">APR</h3>
+                    </div>
+                    <div class="board-items">
+                        <div class="board-line d-flex align-items-center mb-2">
+                            <p class="mb-0 me-2">NEXT EVENTS</p>
+                            <hr class="flex-grow-1">
+                        </div>
+                        <h5>Duara Education Chess Holiday Camp</h5>
+                    </div>
+                    <div class="arrow-b d-flex">
+                        <button class="b-arrow"><span class="arrow">&#8594;</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-fill col-md-6 col-lg-6 mb-4">
+                <div class="board">
+                    <div class="mo-no">
+                        <h2 class="number">14</h2>
+                        <h3 class="month">APR</h3>
+                    </div>
+                    <div class="board-items">
+                        <div class="board-line d-flex align-items-center mb-2">
+                            <p class="mb-0 me-2">NEXT EVENTS</p>
+                            <hr class="flex-grow-1">
+                        </div>
+                        <h5>Focus Group Dicussion: Using chess as a tool for wellness</h5>
+                    </div>
+                    <div class="arrow-b d-flex">
+                        <button class="b-arrow"><span class="arrow">&#8594;</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-left">
+                        <h2 class="website-name">Psych-64</h2>
+                        <img src="images/psych.png" alt="Logo" class="footer-logo">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-center">
+                        <a href="https://www.facebook.com" class="icon-link" target="_blank"><img
+                                src="icons/facebook.png" alt="Facebook" class="icon"></a>
+                        <a href="https://www.instagram.com" class="icon-link" target="_blank"><img
+                                src="icons/instagram.png" alt="Instagram" class="icon"></a>
+                        <a href="https://www.linkedin.com" class="icon-link" target="_blank"><img
+                                src="icons/linkedin.png" alt="LinkedIn" class="icon"></a>
+                        <a href="https://twitter.com" class="icon-link" target="_blank"><img src="icons/twitter.png"
+                                alt="Twitter" class="icon"></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-right">
+                        <h2 class="subscribe-heading">Subscribe to get latest updates</h2>
+                        <form class="subscribe-form">
+                            <div class="mb-3">
+                                <input type="email" class="form-control email-input" placeholder="Enter your email">
+                            </div>
+                            <button type="submit" class="btn subscribe-button">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4596956b22.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
