@@ -146,9 +146,11 @@ h4 {
 }
 
 #navbar {
+  overflow: hidden;
   border: 2px solid rgba(124, 124, 124, 0.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  z-index: 100; 
 }
 
 .visualization {
@@ -870,7 +872,7 @@ h5 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-left: 10px;
   margin-right: 10px;
-  backdrop-filter: blur(10px);
+
 }
 
 #psych {
@@ -886,4 +888,14 @@ h5 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
