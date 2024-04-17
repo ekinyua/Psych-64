@@ -204,6 +204,13 @@ $(document).ready(function () {
         });
     });
 
+    // Donate button click functionality
+    $("#donate-btn").click(function () {
+        // Display donation details pop-up message
+        var donationMessage = "Thank You for Choosing to Support Us. You can send your donations to the following account number.\n\nMpesa Paybill: 247247\nAccount number: 0796502241\n\nYour Support Will be Highly Appreciated!";
+        alert(donationMessage);
+    });
+
     // Subscribe form submission
     $('.subscribe-form').submit(function (event) {
         event.preventDefault(); // Prevent form submission
@@ -224,23 +231,21 @@ $(document).ready(function () {
         }
     });
 
-    
-});
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function () { myFunction() };
 
-// When the user scrolls the page, execute myFunction
-window.onscroll = function () { myFunction() };
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
 
-// Get the navbar
-var navbar = document.getElementById("navbar");
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
 
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
     }
-}
+});
