@@ -109,10 +109,6 @@ $(document).ready(function () {
     return null;
   }
 
-  function eraseCookie(name) {
-    document.cookie = name + "=; Max-Age=-99999999;";
-  }
-
   // Adding a class on mouse enter in the board
   $(".board").hover(
     function () {
@@ -208,58 +204,19 @@ $(document).ready(function () {
       icon.style.transform = "scale(1.2)";
     });
 
-<<<<<<< HEAD
-    // Donate button click functionality
-    $("#donate-btn").click(function () {
-        // Display donation details pop-up message
-        var donationMessage = "Thank You for Choosing to Support Us. You can send your donations to the following account number.\n\nMpesa Paybill: 247247\nAccount number: 0796502241\n\nYour Support Will be Highly Appreciated!";
-        alert(donationMessage);
-    });
-
-    // Subscribe form submission
-    $('.subscribe-form').submit(function (event) {
-        event.preventDefault(); // Prevent form submission
-
-        // Retrieve the email input value and trim whitespace
-        var email = $(this).find('.email-input').val().trim();
-
-        // Check if email is empty
-        if (email === '') {
-            // Display message to enter email first
-            alert('Enter your email first');
-        } else {
-            // Display subscription message
-            alert('You have been subscribed');
-
-            // Clear form fields
-            $(this).trigger('reset');
-        }
-=======
     icon.addEventListener("mouseout", () => {
       icon.style.transform = "scale(1)";
->>>>>>> 77d7f3f417a1e1e24fd16d127df6ef26a9875c93
     });
   });
 
-<<<<<<< HEAD
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function () { myFunction() };
+  // Donate button click functionality
+  $("#donate-btn").click(function () {
+    // Display donation details pop-up message
+    var donationMessage =
+      "Thank You for Choosing to Support Us. You can send your donations to the following account number.\n\nMpesa Paybill: 247247\nAccount number: 0796502241\n\nYour Support Will be Highly Appreciated!";
+    alert(donationMessage);
+  });
 
-    // Get the navbar
-    var navbar = document.getElementById("navbar");
-
-    // Get the offset position of the navbar
-    var sticky = navbar.offsetTop;
-
-    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-=======
   // Subscribe form submission
   $(".subscribe-form").submit(function (event) {
     event.preventDefault(); // Prevent form submission
@@ -299,5 +256,4 @@ $(document).ready(function () {
       navbar.classList.remove("sticky");
     }
   }
->>>>>>> 77d7f3f417a1e1e24fd16d127df6ef26a9875c93
 });
