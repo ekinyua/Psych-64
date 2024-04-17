@@ -19,6 +19,7 @@ body {
   .footer {
     flex-direction: column;
     align-items: flex-start;
+    margin: auto;
   }
 
   .footer-left,
@@ -158,13 +159,17 @@ i.fa-solid.fa-square, #five{
 }
 
 .join-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/chess_3.jpg');
   background-size: cover;
   background-position: center;
   height: 622px;
-  width: 80vw;
+  max-width: 1321px;
+  margin-top: 20px;
   margin: auto;
-  border-radius: 2%;
+  border-radius: 20px;
   border-top: 1px solid #ccc;
   position: relative;
 }
@@ -451,6 +456,12 @@ i.fa-solid.fa-square, #five{
   padding: 20px;
   justify-content: center;
   text-align: center;
+  background: transparent;
+  border: 2px solid rgba(124, 124, 124, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 1321px;
+  margin: auto;
 }
 
 .row {
@@ -575,7 +586,8 @@ h5 {
 
 /* Footer Section */
 .footer {
-  max-width: 1400px;
+  max-width: 1321px;
+  margin: auto;
   height: auto;
   background-color: #FFFFFF;
   color: #1E1E1E;
@@ -584,6 +596,11 @@ h5 {
   align-items: center;
   padding: 20px;
   flex-wrap: wrap;
+  background: transparent;
+  border-top: 2px solid rgba(124, 124, 124, 0.2);
+  border-bottom: 2px solid rgba(124, 124, 124, 0.2);
+  border-radius: 20px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 .footer-left {
@@ -676,6 +693,7 @@ h5 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  
 }
 
 #niadelta{
@@ -721,4 +739,9 @@ h5 {
 .dark #donations p,
 .dark #donations h3 {
   color: #000000; 
+}
+
+#know-about-us {
+  margin-top: 10px;
+  
 }
