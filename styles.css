@@ -718,7 +718,7 @@ h5 {
 }
 
 .footer-logo {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   margin-top: 10px;
 }
@@ -898,4 +898,8 @@ h5 {
 
 .sticky + .content {
   padding-top: 60px;
+}
+
+#footer-logo > h2 {
+  color: #00bfff;
 }
