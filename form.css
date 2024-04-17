@@ -1,0 +1,48 @@
+/* Override Bootstrap styles as needed */
+body {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(images/form-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    background: transparent;
+    border: 2px solid rgba(124, 124, 124, 0.2);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-head {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.btn-warning {
+    background-color: #FFB703;
+    border-color: #FFB703;
+    color: #000;
+    /* Set text color to black for better contrast */
+}
+
+.form-control-hover {
+    border-color: #ffc107;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+}
+
+.form-control-focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+}
+
+.btn-warning-hover {
+    background-color: #ffa000;
+    border-color: #ffa000;
+    color: #fff;
+}
