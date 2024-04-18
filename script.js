@@ -23,7 +23,7 @@ $(document).ready(function () {
     // Event listener for accepting cookies
     $(".cookie-consent-accept").click(function () {
       // Set a cookie to indicate user acceptance
-      setCookie("cookieConsent", "accepted", 365); // Expires in 365 days
+      setCookie("my-cookie", "psych-64", 365); 
       // Remove the consent message
       $(".cookie-consent").remove();
     });
